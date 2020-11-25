@@ -10,6 +10,107 @@
     --dt-status-offline-color: lightgray;
 
     --dt-padding: 12px;
-    --dt-padding-s:t6px;
-    
+    --dt-padding-s: 6px;
+    --dt-padding-xs: 2px;
+
+    --dt-border-radius: 3px;
+
+    --dt-background-color-container: #2a3338;
+    --dt-border-color:var(--secondary-color);
+    --dt-bg-color: var(--highlight-color);
+    --dt-text-color: var(--primary-color);
+    --dt-bg-active-button: var(--highlight-color);
+    --dt-text-color-button: var(--primary-color);
+    --dt-text-color-active-button: var(--primary-color);
+    --dt-hover-cell-color: var(--highlight-color);
+    --dt-even-row-color: var(--secondary-color);
+    --dt-focus-color: var(--highlight-color);
+    --dt-input-background-color: var(--secondary-color);
+    --dt-input-color: var(--primary-color);
+
+}
+
+
+.material-icons{
+    font-size: 16px;
+}
+
+.datatable-container{
+    font-family: 'Noto Sans', sans-serif;
+    background-color: var(--dt-background-color-container);
+    border-radius: var(--dt-border-radius);
+    color:var(--dt-text-color);
+    width: 100%;
+    margin: 0 auto;
+    font-size: 12px;
+}
+
+.datatable-container .header-tools{
+    border-bottom: solid 1px var(--dt-border-color);
+    padding: var(--dt-padding);
+    display: flex;
+    align-items: baseline;
+}
+
+.datatable-container .header-tools .search{
+    width: 30%;
+}
+.datatable-container .header-tools .search-input{
+    width: 100%;
+    background-color: var(--dt-input-background-color);
+    display: block;
+    box-sizing: border-box;
+    border-radius: var(--dt-border-radius);
+    border: solid 1px var(--dt-border-color);
+    color: var(--dt-input-color);
+}
+
+.datatable-container .header-tools .tools{
+    width:  70%;
+
+}
+
+.datatable-container .header-tools .tools ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: start;
+    align-items: baseline;
+}
+
+.datatable-container .header-tools .tools ul li{
+    display: inline-block;
+    margin: 0 var(--dt-padding-xs);
+    align-items: baseline;
+}
+
+.datatable-container .footer-tools {
+    padding: var(--dt-padding);
+    display: flex;
+    align-items: baseline;
+}
+
+.datatable-container .footer-tools .list-items {
+    width: 50%;
+}
+
+.datatable-container .footer-tools .pages{
+
+    margin-left: auto;
+    margin-right: 0;
+    width: 50%;
+}
+
+.datatable-container .footer-tools .pages ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: baseline;
+    justify-content: flex-end;
+
+}
+
+.datatable-container .footer-tools .pages ul li {
+    display: inline-block;
+    margin: 0 var(--dt-padding-xs);
 }

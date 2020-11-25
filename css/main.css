@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+:root{
+    --primary-color: white;
+    --secondary-color: rgb(61, 68, 73);
+    --highlight-color: #3282b8;
+
+    --dt-status-available-color: greenyellow;
+    --dt-status-away-color: lightsalmon;
+    --dt-status-offline-color: lightgray;
+
+    --dt-padding: 12px;
+    --dt-padding-s:t6px;
+    
+}
